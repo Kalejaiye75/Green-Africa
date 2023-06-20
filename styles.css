@@ -177,12 +177,12 @@ form {
 }
 
 form textarea {
-    border: none;
+    border:3px solid rgb(149, 178, 18);;
     outline: none;
-    border-bottom: 1px solid goldenrod;
+    /* border-bottom: 1px solid goldenrod; */
     font-size: 17px;
-    letter-spacing: 0.1em;
-    width: 80%;
+    letter-spacing: 0.01em;
+    width: 83%;
     text-align: left;
 }
 
@@ -193,9 +193,9 @@ form textarea {
 }
 
 .input_field input {
-    border: none;
+    border: 3px solid rgb(149, 178, 18);
     outline: none;
-    border-bottom: 1px solid goldenrod;
+    padding: 7px;
     font-size: 17px;
     letter-spacing: 0.1em; 
     width: 80%; 
@@ -203,13 +203,20 @@ form textarea {
     gap: .5rem;
 }
 
- form input {
-    border: none; 
-    outline: none;
-    border-bottom: 1px solid goldenrod; 
-    font-size: 17px;
-    letter-spacing: 0.1em; 
-    width: 80%;
+button {
+    width: 84%;
+    padding: 10px;
     cursor: pointer;
-    padding: 3px 0;
+    background: greenyellow;
+}
+
+button :hover {
+    color: rgb(89, 9, 165); 
+}
+
+button a {
+    font-size: 17px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: black;
 } 
